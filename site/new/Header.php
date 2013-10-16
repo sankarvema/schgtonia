@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <!-- This website template was downloaded from http://www.nuviotemplates.com - visit us for more templates -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="robots" content="all,follow" />
+
+    <meta name="author" lang="en" content="All: Your website name [www.your-website.com]; e-mail: info@your-website.com" />
+    <meta name="copyright" lang="en" content="webdesign: Vit Dlouhy [Nuvio - www.nuvio.cz; NuvioTemplates - www.nuviotemplates.com]; e-mail: hello@nuviotemplates.com" />
+
+    <meta name="description" content="..." />
+    <meta name="keywords" content="..." />
+    
+    <link rel="stylesheet" media="screen,projection" type="text/css" href="css/main.css" />
+    <!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="css/main-msie.css" /><![endif]-->
+    <link rel="stylesheet" media="screen,projection" type="text/css" href="css/scheme.css" />
+    <link rel="stylesheet" media="print" type="text/css" href="css/print.css" />
+
+    <title>Schlaraffia Washingtonia</title>
+</head>
+
+<body>
+
+<div id="main">
+
+    <!-- Header -->
+    <div id="header">
+
+        <!-- Your logo -->
+		<img src="images/header.jpg" width="905px" height="164" alt="" title="" border="0" align="center"/>
+		
+        <hr class="noscreen" />        
+
+        <!-- Your slogan -->
+        <div id="slogan">100 Jahrungen jung</div>
+        <hr class="noscreen" />        
+        
+        <!-- Hidden navigation -->
+        <p class="noscreen noprint"><em>Quick links: <a href="#content">content</a>, <a href="#nav">navigation</a>.</em></p>
+        <hr class="noscreen" />
+
+    </div> <!-- /header -->

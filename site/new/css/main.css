@@ -1,6 +1,7 @@
 /* ----------------------------------------------------------------------------------------------------------
 1) HTML tags, reset
 ---------------------------------------------------------------------------------------------------------- */
+body {background-color:#bfbfbf;}
 
 * {margin:0; padding:0;}
 body, div, span, p, a, img, ul, ol, li, caption, table, thead, tbody, tfoot, tr, th, td, form, fieldset, legend, label, dl, dt, dd, blockquote, applet, object, h1, h2, h3, h4, h5 {border:0;}
@@ -30,15 +31,21 @@ dd {margin-left:30px;}
 fieldset {position:relative; padding:10px;}
 legend {position:absolute; top:-1em; margin:0; padding:5px 10px; font-size:100%; font-weight:bold;}
 
-a {font-size:100%;}
-a:hover {font-size:100%;background-color:silver;}
+a {color:#00f; text-decoration:none; font: ariel,verdana,sans-serif; border-bottom: 1px groove blue}
+a:hover {color:#f00; text-decoration:underline; font:ariel, veranda,sans-serif;}
 
 /* ----------------------------------------------------------------------------------------------------------
 2) Universal styles (display, float, margin, text-align...)
 ---------------------------------------------------------------------------------------------------------- */
+.topMenuItem a {text-decoration:none;font: bold 16px/30px Georgia, serif; padding:3px; vertical-align:middle;border:none;font-weight:400;color:#000;}
+.topMenuItem a:hover {background-color:silver;text-decoration:none;}
+
 .menuHeading { border: 1px groove black;  padding:3px; border-left-width: 3px;  border-bottom-width: 1px; height:18px; font-weight:800;}
-.menuItem a {padding:2px;font-size:110%; padding:3px; padding-left: 22px; vertical-align:middle;}
-.menuItem a:hover {font-size:110%;background-color:silver;}
+.menuItem a {font: ariel,verdana,sans-serif;padding:2px;font-size:110%; padding:3px; padding-left: 22px; vertical-align:middle;border:none;font-weight:400;color:#000;}
+.menuItem a:hover {font: ariel,verdana,sans-serif;font-size:110%;background-color:silver;text-decoration:none;}
+
+.formTextbox{background-color:#FCE6D4;}
+.formTextboxOptional{background-color:#E8E7E6;}
 
 .formHeadingBlock { border: 1px groove black;  border-left-width: 10px;  border-bottom-width: 3px; height:28px; font-weight:800;}
 .formRow { border: 0px dotted silver;  border-bottom-width: 1px; height:28px;}
@@ -95,7 +102,7 @@ ul.ul-style01 ul li { 0 5px no-repeat;}
         #slogan {position:absolute; top:40px; right:15px; width:230px; font-size:120%; font-weight:normal; font-style:italic; text-align:center; }
 
     #nav {margin:5px 0px 5px 0px; padding:5px 5px 5px 6px;}
-	#nav2 {margin:5px 0px 5px 0px; padding:5px 5px 5px 6px;text-align:left !important}
+	#nav2 {margin:5px 0px 5px 0px; padding:5px 5px 5px 6px;}
     
 
     /*#cols {background:url("../designx/cols.gif") 0 0 repeat-y;}*/
@@ -110,7 +117,7 @@ ul.ul-style01 ul li { 0 5px no-repeat;}
             #aside #aside-title {margin:0; padding:15px 15px 10px 15px; background:url("../design/aside-title.gif") 0 0 no-repeat; font-size:140%; font-weight:normal;}
             #aside .aside-in {padding:10px 10px 15px 10px;}
             #aside .aside-box {padding:10px; background:url("../design/aside-box.jpg") 0 0 no-repeat;font:12px arial,sans-serif;}
-            #aside .title {margin:0 5px 0 0; padding:10px 15px; background:url("../design/aside-title-02.gif") 0 0 repeat-x; font-size:100%;}    
+            #aside .title {margin:0 5px 0 0; padding:10px 15px; font: bold 12px/30px Georgia, serif;}    
 
     #cols-bottom {width:910px; height:12px; background:url("../design/cols-bottom.gif") 0 0 no-repeat; font-size:0;}
     

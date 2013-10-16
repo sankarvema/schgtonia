@@ -2,10 +2,7 @@
 HTML
 ---------------------------------------------------------------------------------------------------------- */
 
-body {background-color:#bfbfbf;}
 
-a {color:#000; text-decoration:none; font:0.8em/1.5 veranda,sans-serif;}
-a:hover {color:#f00; text-decoration:underline; font:0.8em/1.5 veranda,sans-serif;}
 
 /* ----------------------------------------------------------------------------------------------------------
 Generally HTML styles (table, ul, dl...)
