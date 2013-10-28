@@ -36,8 +36,7 @@
 <p><b>ANMELDE FORMALITÄTEN :</b>
 
 <p>(A) <a href="register.php">Anmeldung</a>  bitte direkt über das Internet vornehmen : <a href="register.php">ANMELDUNG (click) oder</a>
-<p>(B) <a href="doc">Anmeldung Festplatte runterladen (click)</a>, ausfuellen und als Anhang im mail an den Kanzelar, Ritter Karolus (Email: <a href="mailto:Ritter197@Verizon.net">Ritter197@Verizon.net</a> ) oder Schatzmeister, Ritter Patentikus (<a href="mailto:fprincebutler@cox.net">fprincebutler@cox.net</a> ) senden. Das Formular kann auch per Post den Kanzelar Rt. Karolus, Karl Menzel, 21834 Glendalough Rd., Gaithersburg, 
-
+<p>(B) <a href="docs/DataEntryFormv2.docx">Anmeldung Festplatte runterladen (click)</a>, ausfuellen und als Anhang im mail an den Schatzmeister, Ritter Patentikus (<a href="mailto:fprincebutler@cox.net">fprincebutler@cox.net</a>) senden. Das Formular kann auch per Post an den Schatzmeister - Ritter Patenticus : Prince Butler, 2 Eden River, Williamsburg , VA23188, USA gesendet werden. 
 
 <p align="justify"><b>Zahlungsm?glichkeiten:</b>
 <p>1.	<b>US Dollar Scheck</b> an den Schatzmeister schicken (Bitte Ritternamen vermerken) (Rt. Patentikus, Prince Butler, 2 Eden River, Williamsburg , VA23188, USA). 

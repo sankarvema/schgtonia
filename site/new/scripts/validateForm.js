@@ -32,7 +32,7 @@ function isInteger(s)
 }
 function isAlphabet(elem)
 {
-		var alphaExp = /^[a-zA-Z\s\.-]+$/;
+		var alphaExp = /^[a-zA-Z\s\.,-: ]+$/;
 		if(elem.value.match(alphaExp))
 		{
 			return true;
@@ -105,7 +105,7 @@ function isNumeric(elem) {
 		}
 }
 
-function isAlphabet(elem)
+/*function isAlphabet(elem)
 {
 		var alphaExp = /^[a-zA-Z]+$/;
 		if(elem.value.match(alphaExp))
@@ -116,7 +116,7 @@ function isAlphabet(elem)
 		{
 			return false;
 		}
-}
+}*/
 
 function checkme() // Define function checkme
 {
@@ -124,17 +124,17 @@ function checkme() // Define function checkme
 			/* checking Rittername */
 			if(document.forms[0].RitterName.value == "")
 			{
-				alert("Enter the RitterName ");
+				alert("Enter the Ritter Name ");
 				document.forms[0].RitterName.focus();
 				return (false);
 			}
 
 			else
 			{
-				var RitterName=document.forms[0].RitterName
+				var RitterName=document.forms[0].RitterName;
 
 				if (isAlphabet(RitterName)==false){
-				alert("Please Enter a Valid RitterName");
+				alert("Please Enter a Valid Ritter Name");
 				RitterName.value="";
 				RitterName.focus();
 				return false
@@ -144,7 +144,7 @@ function checkme() // Define function checkme
 			/* checking Profaner Name */
 			if(document.forms[0].ProfanerName.value == "")
 			{
-				alert("Enter the ProfanerName");
+				alert("Enter the Profaner Name");
 				document.forms[0].ProfanerName.focus();
 				return (false);
 			}
@@ -154,7 +154,7 @@ function checkme() // Define function checkme
 				var ProfanerName=document.forms[0].ProfanerName
 
 				if (isAlphabet(ProfanerName)==false){
-				alert("Please Enter a Valid ProfanerName");
+				alert("Please Enter a Valid Profaner Name");
 				ProfanerName.value="";
 				ProfanerName.focus();
 				return false
@@ -163,7 +163,7 @@ function checkme() // Define function checkme
 
 			/* checking Reychs Nummer */
 
-			if(document.forms[0].ReychsNummer.value == "")
+			if(document.forms[0].ReychsNummer.value == "0" || document.forms[0].ReychsNummer.value == "")
 			{
 				alert("Enter the Reychs Nummer");
 				document.forms[0].ReychsNummer.focus();
@@ -183,7 +183,7 @@ function checkme() // Define function checkme
 			}
 
 		/* checking Personen1 */
-			if(document.forms[0].Personen1.value == "")
+			if(document.forms[0].Personen1.value == "0" || document.forms[0].Personen1.value == "")
 			{
 				alert("Enter the Personen");
 				document.forms[0].Personen1.focus();
@@ -282,13 +282,13 @@ function checkme() // Define function checkme
 			}
 
 		/* checking Fexung */
-			if(document.forms[0].Fexung.value == "")
-			{
+			if(document.forms[0].Fexung.value != "")
+/*			{
 				alert("Enter the Fexung");
 				document.forms[0].Fexung.focus();
 				return (false);
 			}
-			else
+			else*/
 			{
 				var Fexung=document.forms[0].Fexung;
 
@@ -301,13 +301,13 @@ function checkme() // Define function checkme
 			}
 
 /* checking Personen2 */
-			if(document.forms[0].Personen2.value == "")
-			{
+			if(document.forms[0].Personen2.value != "")
+/*			{
 				alert("Enter the Personen");
 				document.forms[0].Personen2.focus();
 				return (false);
 			}
-			else
+			else*/
 			{
 				var Personen2=document.forms[0].Personen2;
 
@@ -320,13 +320,13 @@ function checkme() // Define function checkme
 			}
 
 /* checking Personen3 */
-			if(document.forms[0].Personen3.value == "")
-			{
-				alert("Enter the Personen");
-				document.forms[0].Personen3.focus();
-				return (false);
-			}
-			else
+			if(document.forms[0].Personen3.value != "")
+//			{
+//				alert("Enter the Personen");
+//				document.forms[0].Personen3.focus();
+//				return (false);
+//			}
+//			else
 			{
 				var Personen3=document.forms[0].Personen3;
 
@@ -339,13 +339,13 @@ function checkme() // Define function checkme
 			}
 
 /* checking Personen4 */
-			if(document.forms[0].Personen4.value == "")
-			{
-				alert("Enter the Personen");
-				document.forms[0].Personen4.focus();
-				return (false);
-			}
-			else
+			if(document.forms[0].Personen4.value != "")
+//			{
+//				alert("Enter the Personen");
+//				document.forms[0].Personen4.focus();
+//				return (false);
+//			}
+//			else
 			{
 				var Personen4=document.forms[0].Personen4;
 
@@ -358,13 +358,13 @@ function checkme() // Define function checkme
 			}
 
 /* checking Personen5 */
-			if(document.forms[0].Personen5.value == "")
-			{
-				alert("Enter the Personen");
-				document.forms[0].Personen5.focus();
-				return (false);
-			}
-			else
+			if(document.forms[0].Personen5.value != "")
+//			{
+//				alert("Enter the Personen");
+//				document.forms[0].Personen5.focus();
+//				return (false);
+//			}
+//			else
 			{
 				var Personen5=document.forms[0].Personen5;
 
@@ -377,13 +377,13 @@ function checkme() // Define function checkme
 			}
 
 /* checking Personen6 */
-			if(document.forms[0].Personen6.value == "")
-			{
-				alert("Enter the Personen");
-				document.forms[0].Personen6.focus();
-				return (false);
-			}
-			else
+			if(document.forms[0].Personen6.value != "")
+//			{
+//				alert("Enter the Personen");
+//				document.forms[0].Personen6.focus();
+//				return (false);
+//			}
+//			else
 			{
 				var Personen6=document.forms[0].Personen6;
 
@@ -396,13 +396,13 @@ function checkme() // Define function checkme
 			}
 
 /* checking Personen7 */
-			if(document.forms[0].Personen7.value == "")
-			{
-				alert("Enter the Personen");
-				document.forms[0].Personen7.focus();
-				return (false);
-			}
-			else
+			if(document.forms[0].Personen7.value != "")
+//			{
+//				alert("Enter the Personen");
+//				document.forms[0].Personen7.focus();
+//				return (false);
+//			}
+//			else
 			{
 				var Personen7=document.forms[0].Personen7;
 
@@ -415,13 +415,13 @@ function checkme() // Define function checkme
 			}
 
 /* checking Burgbaustein */
-			if(document.forms[0].Personen8.value == "")
-			{
-				alert("Enter the Personen");
-				document.forms[0].Personen8.focus();
-				return (false);
-			}
-			else
+			if(document.forms[0].Personen8.value != "")
+//			{
+//				alert("Enter the Personen");
+//				document.forms[0].Personen8.focus();
+//				return (false);
+//			}
+//			else
 			{
 				var Personen8=document.forms[0].Personen8;
 
@@ -434,13 +434,13 @@ function checkme() // Define function checkme
 			}
 			
 			/* checking Burgbaustein */
-			if(document.forms[0].Burgbaustein.value == "")
-			{
-				alert("Enter the Burgbaustein");
-				document.forms[0].Burgbaustein.focus();
-				return (false);
-			}
-			else
+			if(document.forms[0].Burgbaustein.value != "")
+//			{
+//				alert("Enter the Burgbaustein");
+//				document.forms[0].Burgbaustein.focus();
+//				return (false);
+//			}
+//			else
 			{
 				var Burgbaustein=document.forms[0].Burgbaustein;
 
@@ -453,13 +453,13 @@ function checkme() // Define function checkme
 			}
 
 /* checking Burgbaustein */
-			if(document.forms[0].Personen9.value == "")
-			{
-				alert("Enter the Personen");
-				document.forms[0].Personen9.focus();
-				return (false);
-			}
-			else
+			if(document.forms[0].Personen9.value != "")
+//			{
+//				alert("Enter the Personen");
+//				document.forms[0].Personen9.focus();
+//				return (false);
+//			}
+//			else
 			{
 				var Personen9=document.forms[0].Personen9;
 

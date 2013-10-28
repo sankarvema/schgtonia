@@ -1,10 +1,5 @@
 <?php
-$filename = "Report"."_".date('Ymd').".xls";
-header("Content-type:application/vnd.ms-excel");
-// It will be called downloaded.pdf
-header("Content-Disposition:inline;filename=$filename;");
 include "formdb.php";
-
 ?>
 
 <table id="Registration" border="1" width="100%" cellspacing="1" cellpadding="4">
@@ -15,6 +10,7 @@ include "formdb.php";
 <th>ReychsNummer</th>
 <th>Personen1</th>
 <th>Strasse</th>
+<th>Country</th>
 <th>ZIP</th>
 <th>Stadt</th>
 <th>eMehl</th>
@@ -25,6 +21,8 @@ include "formdb.php";
 <th>Personen5</th>
 <th>Personen6</th>
 <th>Personen7</th>
+<th>Personen8</th>
+<th>Personen9</th>
 <th>Burgbaustein</th>
 </tr>
 
@@ -58,6 +56,7 @@ $tempProfanerName = $Regrow->ProfanerName;
 $tempReychsNummer = $Regrow->ReychsNummer;
 $tempPersonen1 = $Regrow->Personen1;
 $tempStrasse = $Regrow->Strasse;
+$tempCountry = $Regrow->Country;
 $tempZIP = $Regrow->ZIP;
 $tempStadt = $Regrow->Stadt;
 $tempeMehl = $Regrow->eMehl;
@@ -68,6 +67,8 @@ $tempPersonen4 = $Regrow->Personen4;
 $tempPersonen5 = $Regrow->Personen5;
 $tempPersonen6 = $Regrow->Personen6;
 $tempPersonen7 = $Regrow->Personen7;
+$tempPersonen8 = $Regrow->Personen8;
+$tempPersonen9 = $Regrow->Personen9;
 $tempBurgbaustein = $Regrow->Burgbaustein;
 $tmpmod = fmod($tmpCounter,2);
 if (0 == $tmpmod)
@@ -90,6 +91,7 @@ else
 <td><?php echo $tempReychsNummer ?></td>
 <td><?php echo $tempPersonen1 ?></td>
 <td><?php echo $tempStrasse ?></td>
+<td><?php echo $tempCountry ?></td>
 <td><?php echo $tempZIP ?></td>
 <td><?php echo $tempStadt ?></td>
 <td><?php echo $tempeMehl ?></td>
@@ -100,6 +102,8 @@ else
 <td><?php echo $tempPersonen5 ?></td>
 <td><?php echo $tempPersonen6 ?></td>
 <td><?php echo $tempPersonen7 ?></td>
+<td><?php echo $tempPersonen8 ?></td>
+<td><?php echo $tempPersonen9 ?></td>
 <td><?php echo $tempBurgbaustein ?></td>
 </tr>
 <?php
@@ -110,13 +114,7 @@ else
 {
 	echo "No Record Present !!!";
 ?>
-		<script language="Javascript">
-		alert("There are no Records for the selected Reporting criteria !!!");
-		<!--
-		window.close();
-		//-->
-		</script>				
-
+		
 <?php
 }
 ?>

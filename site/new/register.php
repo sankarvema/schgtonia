@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-<?php
-include("formdb.php");
-?>
 	<script src="scripts/validateForm.js"></script>
     <link rel="stylesheet" media="screen,projection" type="text/css" href="css/main.css" />
     <!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="css/main-msie.css" /><![endif]-->
@@ -21,21 +18,30 @@ include("formdb.php");
         <!-- Content -->
         <div id="content">
 <!-- <form action="registerDone.php" method="post"> -->
-<form name="registerDone" method="post" action="registerDisp.php" onSubmit="return checkme()">
-		<table width="100%" align="center">
+<form name="registerDone" method="post" action="registerDisp.php#top" onSubmit="return checkme()">
+		<table width="90%" align="center">
 		<tr  class="formRow">
-			<td width="100%" colspan="2" class="formHeadingBlock">
+			<td width="90%" colspan="2" class="formHeadingBlock">
 				<span class="formHeading">I. Anmeldung zur FESTSIPPUNG: Samstag 17.Mai, 17- 22 Uhr:</span>
+				<i>Note: All red fields are mandatory<i>
+			</td>
+
+		</tr>
+		<tr  class="formRowBlank">
+			<td width="90%" colspan="2" >
+				
+				<i>Note: All red fields are mandatory, gray fields are optional<i>
 			</td>
 
 		</tr>
 		<tr id="formRowBlank"><td colspan="2">&nbsp;</td></tr>
 		<tr class="formRow">
 			<td width="25%">
-				<span class="formContent">Rittername:</span>
+				<span class="formContent">Ritter Name:</span>
 			</td>
 			<td>
 				<input class="formTextbox" name="RitterName" type="Input" value="" size="30" maxlength="20">
+				
 			</td>
 		</tr>
 		<tr class="formRow">
@@ -51,7 +57,7 @@ include("formdb.php");
 				<span class="formContent">Reychs Nummer:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="ReychsNummer" type="Input" value="" size="30" maxlength="4">
+				<input class="formTextbox" name="ReychsNummer" type="Input" value="0" size="30" maxlength="4">
 			</td>
 		</tr>
 		<tr class="formRow">
@@ -59,7 +65,7 @@ include("formdb.php");
 				<span class="formContent">Anzahl Personen:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Personen1" type="Input" value="" size="30" maxlength="2">
+				<input class="formTextbox" name="Personen1" type="Input" value="0" size="30" maxlength="2">
 				Kosten p.P. &euro; 80  oder US$100
 			</td>
 		</tr>
@@ -75,7 +81,15 @@ include("formdb.php");
 				<span class="formContent">Strasse:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Strasse" type="Input" value="" size="30" maxlength="15">
+				<input class="formTextbox" name="Strasse" type="Input" value="" size="30" maxlength="50">
+			</td>
+		</tr>
+		<tr class="formRow">
+			<td width="30%">
+				<span class="formContent">Country:</span>
+			</td>
+			<td>
+				<?php include("CountryDropDown.php"); ?>
 			</td>
 		</tr>
 		<tr class="formRow">
@@ -108,7 +122,7 @@ include("formdb.php");
 				<span class="formContent">Fexung:</span> 
 			</td>
 			<td>
-				<input class="formTextbox" name="Fexung" type="Input" value="" size="30" maxlength="2">
+				<input class="formTextboxOptional" name="Fexung" type="Input" value="0" size="30" maxlength="2">
 				Dauer in Min : (2 number)
 			</td>
 		</tr>
@@ -125,7 +139,7 @@ include("formdb.php");
 				<span class="formContent">Anzahl Personen:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Personen2" type="Input" value="" size="30" maxlength="4">
+				<input class="formTextboxOptional" name="Personen2" type="Input" value="0" size="30" maxlength="4">
 				Kosten p.P. &euro;25  oder US$30
 			</td>
 		</tr>
@@ -141,7 +155,7 @@ include("formdb.php");
 				<span class="formContent">Anzahl Personen:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Personen3" type="Input" value="" size="30" maxlength="4">
+				<input class="formTextboxOptional" name="Personen3" type="Input" value="0" size="30" maxlength="4">
 			</td>
 		</tr>
 		<tr id="formRowBlank"><td colspan="2">&nbsp;</td></tr>
@@ -156,7 +170,7 @@ include("formdb.php");
 				<span class="formContent">Anzahl Personen:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Personen4" type="Input" value="" size="30" maxlength="4">
+				<input class="formTextboxOptional" name="Personen4" type="Input" value="0" size="30" maxlength="4">
 			</td>
 		</tr>
 		<tr id="formRowBlank"><td colspan="2">&nbsp;</td></tr>
@@ -175,7 +189,7 @@ include("formdb.php");
 				<span class="formContent">Anzahl Personen:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Personen5" type="Input" value="" size="30" maxlength="4">
+				<input class="formTextboxOptional" name="Personen5" type="Input" value="0" size="30" maxlength="4">
 				
 			</td>
 		</tr>
@@ -190,7 +204,7 @@ include("formdb.php");
 				<span class="formContent">Anzahl Personen:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Personen6" type="Input" value="" size="30" maxlength="4">
+				<input class="formTextboxOptional" name="Personen6" type="Input" value="0" size="30" maxlength="4">
 			</td>
 		</tr>
 		<tr id="formRowBlank"><td colspan="2">&nbsp;</td></tr>
@@ -204,7 +218,7 @@ include("formdb.php");
 				<span class="formContent">Anzahl Personen:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Personen7" type="Input" value="" size="30" maxlength="4">
+				<input class="formTextboxOptional" name="Personen7" type="Input" value="0" size="30" maxlength="4">
 			</td>
 		</tr>
 		<tr id="formRowBlank"><td colspan="2">&nbsp;</td></tr>
@@ -218,7 +232,7 @@ include("formdb.php");
 				<span class="formContent">Anzahl Personen:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Personen8" type="Input" value="" size="30" maxlength="4">
+				<input class="formTextboxOptional" name="Personen8" type="Input" value="0" size="30" maxlength="4">
 			</td>
 		</tr>
 		<tr id="formRowBlank"><td colspan="2">&nbsp;</td></tr>
@@ -232,7 +246,7 @@ include("formdb.php");
 				<span class="formContent">Anzahl Personen:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Personen9" type="Input" value="" size="30" maxlength="4">
+				<input class="formTextboxOptional" name="Personen9" type="Input" value="0" size="30" maxlength="4">
 			</td>
 		</tr>
 		<tr id="formRowBlank"><td colspan="2">&nbsp;</td></tr>
@@ -241,18 +255,15 @@ include("formdb.php");
 				<span class="formContent">Burgbaustein:</span>
 			</td>
 			<td>
-				<input class="formTextbox" name="Burgbaustein" type="Input" value="" size="30" maxlength="3">
+				<input class="formTextboxOptional" name="Burgbaustein" type="Input" value="0" size="30" maxlength="3">
 				USD
 			</td>
 		</tr>
 		<tr id="formRowBlank"><td colspan="2">&nbsp;</td></tr>
 		<tr>
-			<td colspan="2" align="right">
+			<td colspan="2" align="center">
 				<input class='yui3-button success' type="submit" value="Submit">
-			</td>
-			<td>
 				<input class='yui3-button error' type="reset" value="Cancel">
-				
 			</td>
 		</tr>
 </table>

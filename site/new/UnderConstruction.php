@@ -19,8 +19,7 @@
         <!-- Content -->
         <div id="content">
 		<p align="center">
-			<a href="100Jahre.php"><img src="images/welcomeLogo.png" border="0"></a><br/>
-			Klick on Logo um zur Webseite des Gr&#252;ndungsfest zu gelangen
+			<a href="Willekum.php"><img src="images/Now-Under-Construction.gif" border="0"></a><br/>
 			</p>
 		<!-- /content -->
 		</div>

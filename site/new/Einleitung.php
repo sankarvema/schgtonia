@@ -19,18 +19,15 @@
         <div id="content">
 		<p align="center">
 		<img src="images/Einleitung-Logo.png" border="0" /><br/>
-<br/><b>GR&#220;NDUNGSFEST DER WASHINGTONIA</b>
-<br/>
+		<b>REICHSGRÜNDUNG VOR HUNDERT JAHREN</b>
+ 		<p align="center"><b>1914</b></p>
+		</p>
 
-<p><b>FESTSIPPUNG:</b>
 
-<p>Die Festsippung der Washingtonia findet am 17. des Wonnemonats ano  Uhui  155 (17. Mai 2014) statt. Sie wird im renommierten Washingtoner <b>Hotel Mayflower</b> im Zentrum der Hauptstadt gehalten. Das Hotel befindet sich in 1127 Connecticut Avenue, NW, Washington DC. Unser Fest wird in dem <b>Festsaal East Room</b> stattfinden.
-
-<p>Die Feier wird unter dem Motto: <b>100 Jahre Zukunft</b> stattfinden. Wir feiern unsere Gr&#252;ndnugsv&#228;ter, die hofften, da&#223; ihre Idee sicher 100 Jahre und mehr andauern w&#252;rde.   In diesem Sinne wollen auch wir heute 100 Jahre Zukunft feiern, da&#223; Schlaraffia Washingtonia sich erneuere und weitere 100 Jahren an fr&#246;hlicher Existenz genie&#223;en kann. Den "runden" Geburtstag wollen wir mit ehrenwerten 100 Sassen aus allen Ecken des Uhuversums feiern. Wir m&#246;chten diese <b>100 G&#228;ste</b> zur Erneuerung unseres Schlaraffenschwurs &#252;ber weiterer 100 Jahre Freundschaft, Kunst und Humor zu unseren Zeugen ernennen.
-
-<p>Die Feier wird daher in drei Abteilungen  unsere Vergangenheit, Gegenwart und Zukunft 
-ehren. Die Festsippung beginnt um 17 Uhr mit einer Hahnenschwanzstunde (Cocktail) gefolgt von dem Einritt und Begr&#252;&#223;ung unserer Gastrecken und anschliessendem Dinner. 
-
+<p>Vor genau hundert Jahren war es soweit, dass ein tapferes Grüpplein angeführt von Ritter Medifisto, Ritter Berner und Ritter Brüssel am Vorabend eines Weltgeschehens das hohe Reich Washingtonia in der Hauptstadt der Vereinigten Staaten gründeten. 
+</p>
+<p>Obwohl die Vorzeichen, die uns der Uhu gab ausgezeichnet waren, waren die ersten Jahre nicht einfach. Den vielen deutsschsprachigen Menschen, die in diesem Lande lebten und wirkten, wurden es mit dem Ausgang des ersten Weltkrieges nicht leicht gemacht ihre Identit?t und ihre Bewunderung für die deutsche Kultur zu zeigen und zum Ausdruck zu bringen… Trotzdem hat die Washingtonia über 180 Sassen einen Ort der Freundschaft, Kultur und des Humors gegeben. Und dieser Tatsache wollen wir Washingtonia gedenken, wollen wir stolz feiern und damit den Weg für weiter "Hundert" legen.
+</p>
 
 <p align="center">
 	<img src="images/100Zukunft-Logo.png" border="0" />

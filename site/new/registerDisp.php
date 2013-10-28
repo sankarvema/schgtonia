@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-include("formdb.php");
-?>
-
   <head>
 
 	
-	    <link rel="stylesheet" media="screen,projection" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" media="screen,projection" type="text/css" href="css/main.css" />
     <!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="css/main-msie.css" /><![endif]-->
     <link rel="stylesheet" media="screen,projection" type="text/css" href="css/scheme.css" />
     <link rel="stylesheet" media="print" type="text/css" href="css/print.css" />
@@ -16,6 +12,7 @@ include("formdb.php");
 
   </head>
   <body style="background-color:#fff !important;"}>
+  <a name="top" >Top</a>
   <div id="main">
     <!-- 2 columns (content + sidebar) -->
     <div id="cols" class="box">
@@ -23,67 +20,31 @@ include("formdb.php");
         <!-- Content -->
         <div id="content">
 		
-				<?php
-				
-		$query="insert into member_register
-				 (
-					Rittername,
-					ProfanerName,
-					ReychsNummer, 
-					Personen1, 
-					Strasse, 
-					ZIP, 
-					Stadt,
-					eMehl,
-					Fexung,
-					Personen2,
-					Personen3,
-					Personen4,
-					Personen5,
-					Personen6,
-					Personen7,
-					Burgbaustein
-				) 
-				values
-				(
-					'$_POST[RitterName]',
-					'$_POST[ProfanerName]',
-					'$_POST[ReychsNummer]',
-					'$_POST[Personen1]',
-					'$_POST[Strasse]',
-					'$_POST[zip]',
-					'$_POST[Stadt]',
-					'$_POST[eMehl]',
-					'$_POST[Fexung]',
-					'$_POST[Personen2]',
-					'$_POST[Personen3]',
-					'$_POST[Personen4]',
-					'$_POST[Personen5]',
-					'$_POST[Personen6]',
-					'$_POST[Personen7]',
-					'$_POST[Personen8]'
-					
-				)";
 
-		$result=mysql_query($query) or die("Could not execute query because: ".mysql_error());
-		if(1== $result)
-		  {
-		
-			?>
-				 <p align="center"><b>Registration accepted</b></p> 
-			<?php
-		  }
-		else
-		  {
-			  ?>
-				 <p align="center"><b>Registration not accepted... Please try again</b></p> 
-				<?php
-		  }
-?>
-<form action="registerDone.php" method="post">
-		<table width="100%" align="center">
+<form action="RegisterProc.php" method="post">
+	<input type="hidden" name="RitterName" value='<?php echo $_POST["RitterName"] ?>'/>
+	<input type="hidden" name="ProfanerName" value='<?php echo $_POST["ProfanerName"] ?>'/>
+	<input type="hidden" name="ReychsNummer" value='<?php echo $_POST["ReychsNummer"] ?>'/>
+	<input type="hidden" name="Personen1" value='<?php echo $_POST["Personen1"] ?>'/>
+	<input type="hidden" name="Strasse" value='<?php echo $_POST["Strasse"] ?>'/>
+	<input type="hidden" name="zip" value='<?php echo $_POST["zip"] ?>'/>
+	<input type="hidden" name="country" value='<?php echo $_POST["country"] ?>'/>
+	<input type="hidden" name="Stadt" value='<?php echo $_POST["Stadt"] ?>'/>
+	<input type="hidden" name="eMehl" value='<?php echo $_POST["eMehl"] ?>'/>
+	<input type="hidden" name="Fexung" value='<?php echo $_POST["Fexung"] ?>'/>
+	<input type="hidden" name="Personen2" value='<?php echo $_POST["Personen2"] ?>'/>
+	<input type="hidden" name="Personen3" value='<?php echo $_POST["Personen3"] ?>'/>
+	<input type="hidden" name="Personen4" value='<?php echo $_POST["Personen4"] ?>'/>
+	<input type="hidden" name="Personen5" value='<?php echo $_POST["Personen5"] ?>'/>
+	<input type="hidden" name="Personen6" value='<?php echo $_POST["Personen6"] ?>'/>
+	<input type="hidden" name="Personen7" value='<?php echo $_POST["Personen7"] ?>'/>
+	<input type="hidden" name="Personen8" value='<?php echo $_POST["Personen8"] ?>'/>
+	<input type="hidden" name="Personen9" value='<?php echo $_POST["Personen9"] ?>'/>
+	<input type="hidden" name="Burgbaustein" value='<?php echo $_POST["Burgbaustein"] ?>'/>
+					
+		<table width="90%" align="center">
 		<tr  class="formRow">
-			<td width="100%" colspan="2" class="formHeadingBlock">
+			<td width="90%" colspan="2" class="formHeadingBlock">
 				<span class="formHeading">Anmeldung zur Washingtonia – 17 Mai. 2014</span>
 			</td>
 
@@ -155,27 +116,19 @@ include("formdb.php");
 		</tr>
 </table>
 <p>
-<table>
-<tr>
-<td>Fällige Anmeldegebühr</td><td>Euro</td><td>USD</td>
-</tr>
-<tr>
-<td>Brueckenzoll Hauptveranstaltung fuer (x) Personen</td><td><?php ?></td><td><?php ?></td>
-</tr>
-<tr>
-<td>Stadtrundfahrt fuer (x) Personen</td><td><?php ?></td><td><?php ?></td>
-</tr>
-<tr>
-<td>Geamtbetrag</td><td><?php ?></td><td><?php ?></td>
-</tr>
-</table>
-<p><b>Anmeldung zu Vor- und Nachprogramm :</b></p>
 
-<p><b>Select Button : 
-<a href="RegisterProc.php"><input class='yui3-button success' type="button" value="Verbindlich Anmelden"></a>
-<a href="javascript:form.go(-1)"><input class='yui3-button success' type="button" value="Korrigieren	">
-<a href="index.php"><input class='yui3-button success' type="button" value="Abbrechen">
-		</b>
+
+<?php
+include("RegisterEventDisplay.php");
+?>
+
+<p>
+	<b>
+	Select Button : 
+	<input class='yui3-button success' type="submit" value="Verbindlich Anmelden"></a>
+	<a href="javascript:history.go(-1)"><input class='yui3-button success' type="button" value="Korrigieren">
+	<a href="index.php"><input class='yui3-button success' type="button" value="Abbrechen">
+	</b>
 </form>
         </div> <!-- /content -->
 

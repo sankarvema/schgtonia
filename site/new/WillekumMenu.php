@@ -15,10 +15,10 @@
 						<dt><a href="Unterkunft.htm" target="innerframe">Unterkunft</a></dt>
 						<dt><a href="BURGBAUSTEIN.htm" target="innerframe">Projekt 100 Burgbaustein</a></dt>
 						<dt><a href="register.htm" target="innerframe">Anmeldung</a></dt>-->
-						<dt class="menuHeading">Willekum</dt>
+						<dt class="menuHeading">HOME</dt>
                         <dt class="menuItem"><a href="Willekum.php" target="innerframe">197 Washingtonia Home</a></dt>
                         <dt class="menuItem"><a href="Sippungsfolge.php" target="innerframe">Sippungsfolge</a></dt>
-                        <dt class="menuItem"><a href="Kalender.php"  target="innerframe">Kalender</a></dt>
+                        <dt class="menuItem"><a href="UnderConstruction.php"  target="innerframe">Kalender</a></dt>
                         <dt class="menuItem"><a href="Kanzleramt.php"  target="innerframe">Kanzlerambt</a></dt>
 						<dt class="menuItem"><a href="Kontakt.php" target="innerframe">Kontakt & Einritt</a></dt>
                         <dt class="menuItem"><a href="Anfahrt & Maps.php"  target="innerframe">Anfahrt & Maps</a></dt>

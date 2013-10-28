@@ -18,13 +18,17 @@
 
         <!-- Content -->
         <div id="content">
+		
+<?php
+include("RegisterSave.php");
+?>
 		<p align="center"><b>Eure Vor-Anmeldung wurde erhalten</b></p>
 
 		<p>Wir bitten zu beachten, dass die Anmeldung aber erst dann als erfolgt angesehen wird, wenn auch die Berappung für das Hauptprogramm eingegangen ist. 
 
-		<table border="1">
-			<tr><td>Geamtbetrag</td><td>Sum	Euro</td><td>Sum USD</td></tr>
-		</table>
+<?php
+include("RegisterEventDisplay.php");
+?>
 
 		<p><b><u>ZAHLUNGSMȌGLICHKEITEN & MODALITAETEN</u></b>
 

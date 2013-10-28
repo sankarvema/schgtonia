@@ -52,12 +52,12 @@
 			&nbsp;&nbsp;|&nbsp;&nbsp;
             <span class="topMenuItem"><a href="100Jahre.php"  target="innerframe">100 Jahre</a></span>
 			&nbsp;&nbsp;|&nbsp;&nbsp;
-			<span class="topMenuItem"><a href="Einfuehrung.php" target="innerframe">Einf&#252;hrung</a></span>
+			<span class="topMenuItem"><a href="UnderConstruction.php" target="innerframe">Einf&#252;hrung</a></span>
 			&nbsp;&nbsp;|&nbsp;&nbsp;
             <!--<a href="Aktuell.php" target="innerframe">Aktuell</a>&nbsp;&nbsp;|&nbsp;&nbsp;-->
 			<span class="topMenuItem"><a href="Impressum.php" target="innerframe">Impressum</a></span>
 			&nbsp;&nbsp;|&nbsp;&nbsp;
-			<span class="topMenuItem"><a href="Ehrenritter.php" target="innerframe">Ehrenritter</a></span>
+			<span class="topMenuItem"><a href="UnderConstruction.php" target="innerframe">Ehrenritter</a></span>
 			<!--<a href="fonts.htm" target="innerframe">Trials Fonts</a>-->
     </div> <!-- /nav -->
 
