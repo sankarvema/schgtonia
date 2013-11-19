@@ -9,6 +9,17 @@ if($_POST["Personen2"] != "")
 	$dollar2 = $_POST["Personen2"] * 30;
 	$euro2 = $_POST["Personen2"] * 25;
 }
+
+if($_POST["Personen3"] != "")
+{
+	$dollar3 = $_POST["Personen3"] * 25;
+	$euro3 = $_POST["Personen3"] * 20;
+}
+
+if($_POST["Burgbaustein"] != "")
+{
+	$dollar4 = $_POST["Burgbaustein"];
+}
 ?>
 
 <center>
@@ -27,9 +38,19 @@ if($_POST["Personen2"] != "")
 <td align="right"><?php echo $euro2 ?></td>
 </tr>
 <tr>
-<td>Geamtbetrag</td>
-<td align="right"><?php echo ($dollar1 + $dollar2) ?></td>
-<td align="right"><?php echo ($euro1 + $euro2)?></td>
+<td>Katerfruehstueck fuer (<?php echo $_POST["Personen3"]?>) Personen</td>
+<td align="right"><?php echo $dollar3 ?></td>
+<td align="right"><?php echo $euro3 ?></td>
+</tr>
+<tr>
+<td>Burgbaustein (<?php echo $_POST["Burgbaustein"]?>) USD</td>
+<td align="right"><?php echo $dollar4 ?></td>
+<td align="right">&nbsp;</td>
+</tr>
+<tr>
+<td>Gesamtbetrag</td>
+<td align="right"><?php echo ($dollar1 + $dollar2 + $dollar3 + $dollar4) ?></td>
+<td align="right"><?php echo ($euro1 + $euro2 + $euro3)?></td>
 </tr>
 </table>
 </center>

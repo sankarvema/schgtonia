@@ -25,11 +25,16 @@
 
 <p><b>Schlaraffisches Golftournier</b>
 
-<p>Schlaraffen brauchen einen gezielten Schlag beim Duell. Die Treffsicherheit bekommt man beim "Golfen". Zur Ein&#252;bung auf die Festsippung laden wir zu einem Golfspiel/ Golftournier im xxx Club ein. Rt. Heider wird interessierte Recken, die golfen m&#246;chten, am Donnerstag den 15. Mai zu seinem Club in Washington f&#252;hren. 
+<p>Schlaraffen brauchen einen gezielten Schlag beim Duell. Die Treffsicherheit bekommt man beim "Golfen". Zur Einübung auf die Festsippung laden wir zu einem Golfspiel/ Golftournier in einem renommierten Club im Raum Washington ein. </p>
 
-<p>Ausr&#252;stung kann vom Club ausgeborgt werden. Anschlie&#223;end gibt's zur St&#228;rkung die M&#246;glichkeit in einer Brauerei (Capitol Brewery) zu essen.  
+<p>Es besteht die Möglichkeit entweder in einem Club im Grossraum Washington dieses Turnier zu veranstalten, oder auch diese Aktivität mit dem Ausflug nach Williamsburg zu verbinden und dort in einem der renommierten Clubs zu spielen.</p>
 
-<p>Die Sassen treffen sich um 13 Uhr bei der Metrostation xxxxxx. Bei gr&#246;&#223;erem Interessen und Anmeldung von mehr als 10 Sassen, k&#246;nnen wir ein Turnier gestalten, dass sowohl am Donnerstag den 15.Mai wie auch am 16.Mai stattfinden wird. 
+<p>Rt. Heider  ist der ernannte Organisator für die Golfaktivität - interessierte Recken sollten sich doch <b>bitte mit ihm in Verbindung setzen</b>, damit wir so versuchen können diesen Event so zu organisieren dass sich golfen am besten mit dem restlichen Rahmenprogramm integriert.</p>
+
+<p>Rt. Heider - Profane Adresse : Frank Heitmann, 9325 Raintree Rd, Burke, VA 22015, USA, oder eMail : <a href="mailto:fheitman.privat@gmail.com">fheitman.privat@gmail.com</a> oder einfach anrufen unter +1.571.423-9160.</p>
+
+
+<p>Ausrüstung kann ausgeborgt werden. </p>
 
 
 <table>

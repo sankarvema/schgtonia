@@ -6,7 +6,7 @@
 						<dt class="menuItem"><a href="100Rahmenprogram.php" target="innerframe">Projekt 100 - Rahmenprogram</a></dt>
 						
 						<dt class="menuHeading">HAUPTPROGRAMM</dt>
-						<dt class="menuItem"><a href="Grundungsfest.php" target="innerframe">Gr&#252;ndungsfest Rahmenprogram</a></dt>
+						<dt class="menuItem"><a href="Grundungsfest.php" target="innerframe">Festsippung</a></dt>
 						<dt class="menuItem"><a href="Katerfruhstuck.php" target="innerframe">Projekt 100 - Katerfr&#252;hst&#252;ck</a></dt>
 						<dt class="menuItem"><a href="MtVernon.php" target="innerframe">Projekt 100 - Mnt Vernon</a></dt>
 						<dt class="menuItem"><a href="Stadtrundfahrt.php" target="innerframe">Projekt 100 - Stadtrundfahrt</a></dt>

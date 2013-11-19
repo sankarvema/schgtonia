@@ -12,14 +12,15 @@
 
   </head>
   <body style="background-color:#fff !important;"}>
-  <a name="top" >Top</a>
+
   <div id="main">
+
     <!-- 2 columns (content + sidebar) -->
     <div id="cols" class="box">
 
         <!-- Content -->
         <div id="content">
-		
+		    
 
 <form action="RegisterProc.php" method="post">
 	<input type="hidden" name="RitterName" value='<?php echo $_POST["RitterName"] ?>'/>
@@ -41,11 +42,12 @@
 	<input type="hidden" name="Personen8" value='<?php echo $_POST["Personen8"] ?>'/>
 	<input type="hidden" name="Personen9" value='<?php echo $_POST["Personen9"] ?>'/>
 	<input type="hidden" name="Burgbaustein" value='<?php echo $_POST["Burgbaustein"] ?>'/>
-					
+				<p align="right"><a name="top" >Top</a></p>
 		<table width="90%" align="center">
 		<tr  class="formRow">
 			<td width="90%" colspan="2" class="formHeadingBlock">
 				<span class="formHeading">Anmeldung zur Washingtonia – 17 Mai. 2014</span>
+					
 			</td>
 
 		</tr>

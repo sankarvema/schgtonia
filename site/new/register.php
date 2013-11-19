@@ -156,6 +156,7 @@
 			</td>
 			<td>
 				<input class="formTextboxOptional" name="Personen3" type="Input" value="0" size="30" maxlength="4">
+				Kosten p.P. &euro;20 oder US$25
 			</td>
 		</tr>
 		<tr id="formRowBlank"><td colspan="2">&nbsp;</td></tr>
@@ -259,7 +260,9 @@
 				USD
 			</td>
 		</tr>
-		<tr id="formRowBlank"><td colspan="2">&nbsp;</td></tr>
+		<tr id="formRowBlank"><td colspan="2"><br/>
+			<i>"Berappung erfolgt ueber (Rt. Patentikus, Prince Butler, 2 Eden River, Williamsburg , VA23188, USA - Tel. : +1.757.345-0855 - Email : fprincebutler@cox.net)"</i>
+			</td></tr>
 		<tr>
 			<td colspan="2" align="center">
 				<input class='yui3-button success' type="submit" value="Submit">

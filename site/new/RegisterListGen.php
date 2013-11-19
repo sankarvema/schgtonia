@@ -15,14 +15,14 @@ include "formdb.php";
 <th>Stadt</th>
 <th>eMehl</th>
 <th>Fexung</th>
-<th>Personen2</th>
-<th>Personen3</th>
-<th>Personen4</th>
-<th>Personen5</th>
-<th>Personen6</th>
-<th>Personen7</th>
-<th>Personen8</th>
-<th>Personen9</th>
+<th>Festsippung</th>
+<th>Stadtrundfahrt</th>
+<th>Katerfruehstueck</th>
+<th>Mt. Vernon</th>
+<th>Williamsburg</th>
+<th>Flugross</th>
+<th>Motor</th>
+<th>Tavern</th>
 <th>Burgbaustein</th>
 </tr>
 
